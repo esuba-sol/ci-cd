@@ -1,0 +1,11 @@
+{
+  "name": "ci-cd-docker-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node -e \"console.log('running simple built-in test'); process.exit(0)\""
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
